@@ -1,0 +1,2 @@
+﻿Feature	Feature_Parent	Title	Description
+ProductFeature		NAP Locked down browser	

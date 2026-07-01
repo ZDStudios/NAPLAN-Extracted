@@ -1,0 +1,16 @@
+﻿Action	Type	Source	Target
+WixUIValidatePath	65	WixUIWixca	ValidatePath
+WixUIPrintEula	65	WixUIWixca	PrintEula
+SetJanisonReplayLocalAppDataFolder	51	JanisonReplayLocalAppDataFolder	[LocalAppDataFolder]NAPLDB
+SetWIX_IS_NETFRAMEWORK_461_OR_LATER_INSTALLED	51	WIX_IS_NETFRAMEWORK_461_OR_LATER_INSTALLED	1
+SchedServiceConfig	1	WixCA	SchedServiceConfig
+ExecServiceConfig	3073	WixCA	ExecServiceConfig
+RollbackServiceConfig	3329	WixCA	RollbackServiceConfig
+PopulateDeviceRecord	1	CustomActions.CA	PopulateDeviceRecord
+ValidateDeviceRecord	1	CustomActions.CA	ValidateDeviceRecord
+SaveDeviceRecord.SetProperty	51	SaveDeviceRecord	DEVICEID=[DEVICEID];DEVICENAME=[DEVICENAME];INSTALLLOCATION=[INSTALLLOCATION]
+SaveDeviceRecord	3073	CustomActions.CA	SaveDeviceRecord
+Clean	1025	CustomActions.CA	Clean
+Clean.SetProperty	51	Clean	INSTALLLOCATION=[INSTALLLOCATION]
+InstallReplayPackageIfExists.SetProperty	51	InstallReplayPackageIfExists	loc_ok=Ok;loc_title=Please enter the test package password...;loc_cancel=Cancel;loc_show_pw=Show / Hide Password;PW=[PW];PACKAGESEARCHPATHS=[OriginalDatabase],[TPFOLDER],[CURRENTDIRECTORY];INSTALLLOCATION=[INSTALLLOCATION]
+InstallReplayPackageIfExists	1025	CustomActions.CA	InstallReplayPackageIfExists

@@ -1,0 +1,3 @@
+regD7327D38AFE52D615BAF10F99FBEA278	1	Software\[Manufacturer]\[ProductName]\Installer	desktop_shortcut	desktop_shortcut
+regC027A490566CB91231150F25573ADA7C	1	Software\[Manufacturer]\[ProductName]\Installer	program_menu_shortcut	program_menu_shortcut
+reg16C4E74479E7CE15E60FD7BAD222F478	1	Software\[Manufacturer]\[ProductName]\Installer	RemoveJanisonReplay	RemoveJanisonReplay
